@@ -68,14 +68,14 @@ async def start(bot, m: Message):
     caption = f"🌟 Welcome {m.from_user.mention} ! 🌟"
     start_message = await bot.send_photo(
         chat_id=m.chat.id,
-        photo="https://envs.sh/GVI.jpg",
+        photo="https://cdna.artstation.com/p/assets/images/images/053/465/272/large/rehan-moazzam-studyverse.jpg?1662288112",
         caption=caption
     )
 
     await asyncio.sleep(1)
     await start_message.edit_text(
         f"🌟 Welcome {m.from_user.first_name}! 🌟\n\n" +
-        f"Initializing Uploader bot... 🤖\n\n"
+        f"Initializing StudyVerse DRM bot... 🤖\n\n"
         f"Progress: [⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️] 0%\n\n"
     )
 
@@ -134,7 +134,7 @@ async def start(bot, m: Message):
 async def back_to_main_menu(client, callback_query):
     user_id = callback_query.from_user.id
     first_name = callback_query.from_user.first_name
-    caption = f"✨ **Welcome [{first_name}](tg://user?id={user_id}) in My uploader bot**"
+    caption = f"✨ **Welcome [{first_name}](tg://user?id={user_id}) in StudyVerse DRM bot**"
     keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("✨ Commands", callback_data="cmd_command")],
             [InlineKeyboardButton("💎 Features", callback_data="feat_command"), InlineKeyboardButton("⚙️ Settings", callback_data="setttings")],
@@ -144,7 +144,7 @@ async def back_to_main_menu(client, callback_query):
     
     await callback_query.message.edit_media(
       InputMediaPhoto(
-        media="https://envs.sh/GVI.jpg",
+        media="https://cdna.artstation.com/p/assets/images/images/053/465/272/large/rehan-moazzam-studyverse.jpg?1662288112",
         caption=caption
       ),
       reply_markup=keyboard
@@ -164,7 +164,7 @@ async def cmd(client, callback_query):
     ])
     await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://tinypic.host/images/2025/07/14/file_00000000fc2461fbbdd6bc500cecbff8_conversation_id6874702c-9760-800e-b0bf-8e0bcf8a3833message_id964012ce-7ef5-4ad4-88e0-1c41ed240c03-1-1.jpg",
+      media="https://cdna.artstation.com/p/assets/images/images/053/465/272/large/rehan-moazzam-studyverse.jpg?1662288112",
       caption=caption
     ),
     reply_markup=keyboard
@@ -203,7 +203,7 @@ async def help_button(client, callback_query):
     
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://tinypic.host/images/2025/07/14/file_00000000fc2461fbbdd6bc500cecbff8_conversation_id6874702c-9760-800e-b0bf-8e0bcf8a3833message_id964012ce-7ef5-4ad4-88e0-1c41ed240c03-1-1.jpg",
+      media="https://cdna.artstation.com/p/assets/images/images/053/465/272/large/rehan-moazzam-studyverse.jpg?1662288112",
       caption=caption
     ),
     reply_markup=keyboard
@@ -230,7 +230,7 @@ async def help_button(client, callback_query):
     
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://tinypic.host/images/2025/07/14/file_00000000fc2461fbbdd6bc500cecbff8_conversation_id6874702c-9760-800e-b0bf-8e0bcf8a3833message_id964012ce-7ef5-4ad4-88e0-1c41ed240c03-1-1.jpg",
+      media="https://cdna.artstation.com/p/assets/images/images/053/465/272/large/rehan-moazzam-studyverse.jpg?1662288112",
       caption=caption
     ),
     reply_markup=keyboard
@@ -266,7 +266,7 @@ async def upgrade_button(client, callback_query):
     
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://envs.sh/GVI.jpg",
+      media="https://cdna.artstation.com/p/assets/images/images/053/465/272/large/rehan-moazzam-studyverse.jpg?1662288112",
       caption=caption
     ),
     reply_markup=keyboard
@@ -288,7 +288,7 @@ async def settings_button(client, callback_query):
 
     await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://envs.sh/GVI.jpg",
+      media="https://cdna.artstation.com/p/assets/images/images/053/465/272/large/rehan-moazzam-studyverse.jpg?1662288112",
       caption=caption
     ),
     reply_markup=keyboard
@@ -305,7 +305,7 @@ async def cmd(client, callback_query):
     ])
     await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://tinypic.host/images/2025/07/14/file_00000000fc2461fbbdd6bc500cecbff8_conversation_id6874702c-9760-800e-b0bf-8e0bcf8a3833message_id964012ce-7ef5-4ad4-88e0-1c41ed240c03-1-1.jpg",
+      media="https://cdna.artstation.com/p/assets/images/images/053/465/272/large/rehan-moazzam-studyverse.jpg?1662288112",
       caption=caption
     ),
     reply_markup=keyboard
@@ -322,7 +322,7 @@ async def cmd(client, callback_query):
     ])
     await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://tinypic.host/images/2025/07/14/file_00000000fc2461fbbdd6bc500cecbff8_conversation_id6874702c-9760-800e-b0bf-8e0bcf8a3833message_id964012ce-7ef5-4ad4-88e0-1c41ed240c03-1-1.jpg",
+      media="https://cdna.artstation.com/p/assets/images/images/053/465/272/large/rehan-moazzam-studyverse.jpg?1662288112",
       caption=caption
     ),
     reply_markup=keyboard
@@ -340,7 +340,7 @@ async def cmd(client, callback_query):
     ])
     await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://tinypic.host/images/2025/07/14/file_00000000fc2461fbbdd6bc500cecbff8_conversation_id6874702c-9760-800e-b0bf-8e0bcf8a3833message_id964012ce-7ef5-4ad4-88e0-1c41ed240c03-1-1.jpg",
+      media="https://cdna.artstation.com/p/assets/images/images/053/465/272/large/rehan-moazzam-studyverse.jpg?1662288112",
       caption=caption
     ),
     reply_markup=keyboard
